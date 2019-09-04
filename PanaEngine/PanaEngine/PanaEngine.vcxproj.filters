@@ -64,6 +64,9 @@
     <ClCompile Include="GeneratedFiles\Release\moc_OpenglWindow.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="win_graphdevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="PanaEngine.h">
@@ -82,6 +85,9 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_PanaEngine.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win_graphdevice.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

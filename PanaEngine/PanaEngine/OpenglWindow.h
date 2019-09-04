@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QWidget>
+#include "win_graphdevice.h"
 
 class OpenglWindow : public QWidget
 {
@@ -15,4 +16,5 @@ private slots:
 	void render_update();
 private:
 	QTimer *render_time;
+	CGraphDevice m_GraphDevice;
 };

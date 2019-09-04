@@ -41,12 +41,9 @@ public:
         PanaEngineClass->resize(1366, 768);
         centralWidget = new QWidget(PanaEngineClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-
-		//×Ô¶¨Òåopengl
         openGLWidget = new OpenglWindow(centralWidget);
         openGLWidget->setObjectName(QStringLiteral("openGLWidget"));
         openGLWidget->setGeometry(QRect(0, 0, 1366, 768));
-
         PanaEngineClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PanaEngineClass);
         menuBar->setObjectName(QStringLiteral("menuBar"));
