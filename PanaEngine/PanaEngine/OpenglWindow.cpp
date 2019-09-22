@@ -8,6 +8,9 @@
 #include "GLES2/gl2ext.h"
 #include "egl/egl.h"
 
+#include "../Runtime/mesh/mesh.h"
+#include "../Runtime/fbxloader/fbxinterface.h"
+
 OpenglWindow::OpenglWindow(QWidget* parent)
 	: QWidget(parent)
 {
@@ -37,6 +40,7 @@ void OpenglWindow::resizeEvent(QResizeEvent *e)
 
 void OpenglWindow::InitializeGL()
 {
+	Mesh* mesh = FbxInterface::Import("test.fbx");
 }
 
 void OpenglWindow::render_update()
