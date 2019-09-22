@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mesh">
+      <UniqueIdentifier>{c25f6329-e51f-4c73-90a9-3e0bb0c57bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbxloader">
+      <UniqueIdentifier>{b4b9ec1c-0003-4997-b312-894ef3b50553}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mesh\mesh.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="fbxloader\fbx_loader.cpp">
+      <Filter>fbxloader</Filter>
+    </ClCompile>
+    <ClCompile Include="fbxloader\fbxinterface.cpp">
+      <Filter>fbxloader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mesh\mesh.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="fbxloader\fbx_header.h">
+      <Filter>fbxloader</Filter>
+    </ClInclude>
+    <ClInclude Include="fbxloader\fbx_loader.h">
+      <Filter>fbxloader</Filter>
+    </ClInclude>
+    <ClInclude Include="fbxloader\fbxinterface.h">
+      <Filter>fbxloader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
